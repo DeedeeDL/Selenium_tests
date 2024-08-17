@@ -4,9 +4,10 @@ from selenium.webdriver import Firefox
 from selenium.webdriver import Edge
 import time
 
+# TC 01 - Cross-browser testing - The website cand be opened with different browsers (Chrome, Firefox and Edge): : Chrome , Firefox and Edge
+
 site = "https://oportunitatisicariere.ro/"
 
-# Test scenario for cross browser testing - the URL could be opened on different broswers : Chrome , Firefox and Edge
 def URL(browser, url):
     browser1 = browser()
     browser1.get(url)
