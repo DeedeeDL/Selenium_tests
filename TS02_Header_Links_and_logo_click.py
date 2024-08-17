@@ -38,11 +38,7 @@ def menu():
     print("All the links are working properly")
     print("Test passed succesfully !")
 
-    '''
-    un alt co pentru scrolling ar fi fost : 
-    browser.execute_script("window.scrollTo(0,document.body.scroolHeight)")  
-    time.sleep(3)
-    '''
+
 
 menu()
 
